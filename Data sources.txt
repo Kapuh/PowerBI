@@ -1,0 +1,8 @@
+List of free and open data sources to use for projects.
+
+StatFin contains Finland's free-of-charge statistical databases. Tables can be downloaded in different file types.
+--> https://pxnet2.stat.fi/PXWeb/pxweb/en/StatFin/
+
+Q4OpenData is a service which generates Power Query script. The service can generate scipts from different public PXWeb OpenData sources.
+--> https://q4.fi
+
