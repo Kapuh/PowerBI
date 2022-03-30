@@ -20,7 +20,6 @@ RETURN
         "Kuukausi",SWITCH(MONTH([Date]),1,"Tammikuu",2,"Helmikuu",3,"Maaliskuu",4,"Huhtikuu",5,"Toukokuu",6,"Kesäkuu",7,"Heinäkuu",8,"Elokuu",9,"Syyskuu",10,"Lokakuu",11,"Marraskuu",12,"Joulukuu"),
         "Viikonpäivä",SWITCH(WEEKDAY([Date],2),1,"Maanantai",2,"Tiistai",3,"Keskiviikko",4,"Torstai",5,"Perjantai",6,"Lauantai",7,"Sunnuntai"),
         "Kvartaali", "Q" & QUARTER( [Date] ),
-        "Kvartaali vika kk",SWITCH(MONTH([Date]),1,"Ei",2,"Ei",3,"Maaliskuu",4,"Ei",5,"Ei",6,"Kesäkuu",7,"Ei",8,"Ei",9,"Syyskuu",10,"Ei",11,"Ei",12,"Joulukuu"),
         "Kvartaali/vuosi", "Q" & QUARTER( [Date] ) & FORMAT ( [Date], "/YYYY"),
         "vuosi/kvartaali", FORMAT ( [Date], "YYYY/") & "Q" & QUARTER( [Date] )
 )
