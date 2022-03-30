@@ -1,0 +1,48 @@
+DAX calendar tables. Create a new table in Power BI and paste one of the following codes.
+
+--- Calendar (finnish) ---
+
+Kalenteri = 
+VAR kalenteriM =
+    CALENDAR (DATE(2020, 1, 1), DATE(2025, 12, 31)) /* Set date range according to your need */
+RETURN
+    ADDCOLUMNS (
+        kalenteriM,
+        "Pvm", FORMAT([DATE], "DD.MM.YYYY"),
+        "Vuosi", FORMAT ( [Date], "yyyy" ),
+        "KuukausiNro", MONTH ( [Date] ),
+        "Vuosi-Kuukausi", FORMAT ( [Date], "YYYY-MM" ),
+        "Kuukausi/Vuosi", FORMAT ( [Date], "MM/YYYY" ),
+        "Vuosi/Kuukausi", FORMAT ( [Date], "YYYY/MM" ),
+        "Viikonpäivänumero", WEEKDAY ( [Date], 2 ),
+        "Viikkonumero", WEEKNUM ( [Date] ) -2,
+        "Viikko", "vko " & WEEKNUM ( [Date], 2 ) -1,
+        "Kuukausi",SWITCH(MONTH([Date]),1,"Tammikuu",2,"Helmikuu",3,"Maaliskuu",4,"Huhtikuu",5,"Toukokuu",6,"Kesäkuu",7,"Heinäkuu",8,"Elokuu",9,"Syyskuu",10,"Lokakuu",11,"Marraskuu",12,"Joulukuu"),
+        "Viikonpäivä",SWITCH(WEEKDAY([Date],2),1,"Maanantai",2,"Tiistai",3,"Keskiviikko",4,"Torstai",5,"Perjantai",6,"Lauantai",7,"Sunnuntai"),
+        "Kvartaali", "Q" & QUARTER( [Date] ),
+        "Kvartaali/vuosi", "Q" & QUARTER( [Date] ) & FORMAT ( [Date], "/YYYY"),
+        "Vuosi/kvartaali", FORMAT ( [Date], "YYYY/") & "Q" & QUARTER( [Date] ))
+
+
+--- Calendar (english) ---
+
+Calendar = 
+VAR CalendarV =
+    CALENDAR (DATE(2020, 1, 1), DATE(2025, 12, 31)) /* Set date range you need */
+RETURN
+    ADDCOLUMNS (
+        CalendarV,
+        "Date", FORMAT([DATE], "DD.MM.YYYY"),
+        "Year", FORMAT ( [Date], "yyyy" ),
+        "MonthNo", MONTH ( [Date] ),
+        "Year-Month", FORMAT ( [Date], "YYYY-MM" ),
+        "Month/Year", FORMAT ( [Date], "MM/YYYY" ),
+        "Year/Month", FORMAT ( [Date], "YYYY/MM" ),
+        "Weekday", WEEKDAY ( [Date], 2 ),
+        "Week number", WEEKNUM ( [Date] ) -2,
+        "Week", "wk " & WEEKNUM ( [Date], 2 ) -1,
+        "Month",SWITCH(MONTH([Date]),1,"January",2,"February",3,"March",4,"April",5,"May",6,"June",7,"July",8,"August",9,"September",10,"October",11,"November",12,"December"),
+        "Day of the week",SWITCH(WEEKDAY([Date],2),1,"Monday",2,"Tuesday",3,"Wednesday",4,"Thursday",5,"Friday",6,"Saturday",7,"Sunday"),
+        "Quarter", "Q" & QUARTER( [Date] ),
+        "Quarter/Year", "Q" & QUARTER( [Date] ) & FORMAT ( [Date], "/YYYY"),
+        "Year/Quarter", FORMAT ( [Date], "YYYY/") & "Q" & QUARTER( [Date] ))
