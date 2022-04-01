@@ -6,3 +6,5 @@ StatFin contains Finland's free-of-charge statistical databases. Tables can be d
 Q4OpenData is a service which generates Power Query script. The service can generate scipts from different public PXWeb OpenData sources.
 --> https://q4.fi
 
+Power Toys
+https://github.com/microsoft/PowerToys
