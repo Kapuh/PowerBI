@@ -8,3 +8,6 @@ Q4OpenData is a service which generates Power Query script. The service can gene
 
 Power Toys
 https://github.com/microsoft/PowerToys
+
+Avoin data
+https://www.avoindata.fi/fi
