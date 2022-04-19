@@ -11,3 +11,12 @@ https://github.com/microsoft/PowerToys
 
 Avoin data
 https://www.avoindata.fi/fi
+
+Data europe
+https://data.europa.eu/data/datasets?locale=en
+
+Sotkanet
+https://sotkanet.fi/sotkanet/fi/index
+
+Oulun kaupungin dataportaali
+https://data.ouka.fi/fi/
