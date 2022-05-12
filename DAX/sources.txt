@@ -1,0 +1,3 @@
+
+All except for multiple conditions
+https://forum.powerpivotpro.com/forums/topic/multiple-allexcept-in-same-calc/
