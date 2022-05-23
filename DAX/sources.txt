@@ -1,3 +1,6 @@
 
 All except for multiple conditions
 https://forum.powerpivotpro.com/forums/topic/multiple-allexcept-in-same-calc/
+
+Splitting columns by delimeter with DAX
+https://community.powerbi.com/t5/Desktop/Splitting-columns-by-Delimiter-with-DAX-No-Query-Editor/td-p/995543
