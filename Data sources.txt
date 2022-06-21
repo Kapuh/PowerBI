@@ -20,3 +20,6 @@ https://sotkanet.fi/sotkanet/fi/index
 
 Oulun kaupungin dataportaali
 https://data.ouka.fi/fi/
+
+Julkisia raportteja
+https://hexcelligent.fi/2017/12/22/suomalaisia-power-bi-raportteja/
