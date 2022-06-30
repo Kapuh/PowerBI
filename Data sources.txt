@@ -24,5 +24,5 @@ https://data.ouka.fi/fi/
 Julkisia raportteja
 https://hexcelligent.fi/2017/12/22/suomalaisia-power-bi-raportteja/
 
-Grafana
+Grafana / Open source BI tool
 https://grafana.com/
