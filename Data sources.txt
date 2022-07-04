@@ -29,3 +29,6 @@ https://grafana.com/
 
 Helsingin yliopiston avoimia kursseja
 https://www.mooc.fi/#courses
+
+FItech
+https://fitech.io/fi/opinnot/?fit_course_types=upcoming&orderby=start_date
