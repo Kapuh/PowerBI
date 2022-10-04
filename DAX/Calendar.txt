@@ -32,7 +32,7 @@ VAR CalendarV =
 RETURN
     ADDCOLUMNS (
         CalendarV,
-        "Date", FORMAT([DATE], "DD.MM.YYYY"),
+        "DateF", FORMAT([DATE], "DD.MM.YYYY"),
         "Year", FORMAT ( [Date], "yyyy" ),
         "MonthNo", MONTH ( [Date] ),
         "Year-Month", FORMAT ( [Date], "YYYY-MM" ),
