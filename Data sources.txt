@@ -32,3 +32,10 @@ https://www.mooc.fi/#courses
 
 FItech
 https://fitech.io/fi/opinnot/?fit_course_types=upcoming&orderby=start_date
+
+SQLite
+https://www.sqlite.org/index.html
+
+SQL tietokanta-ohje
+https://tikape.mooc.fi/syksy-2022/content/osa-2/index.html#sqlite-tietokanta
+
