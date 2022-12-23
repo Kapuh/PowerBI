@@ -1,0 +1,40 @@
+Color order: grey, cyan, light brown, orange, black
+
+#918A75
+#40CFB8
+#FFE8CA
+#FF471D
+#33333A
+
+--------------------------------------------------
+
+Color order: green, blue, grey, sand, orange, red, dark red
+
+#99A88C
+#335C67
+#E8E8E8
+#FFF9D6
+#E09F3E
+#9E2A2B
+#540B0E
+
+--------------------------------------------------
+
+Color order: sand, dark brown, orange, dark red, dark green
+
+#E5DCC8
+#2D2427
+#8F5100
+#4E0416
+#1E342A
+
+--------------------------------------------------
+
+Color order: red, light red, blue, light blue, gravel, blue2
+
+#E02842
+#F48C77
+#106A87
+#69A1B1
+#D1ABA0
+#375F74
