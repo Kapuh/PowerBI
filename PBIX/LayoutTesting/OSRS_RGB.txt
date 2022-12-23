@@ -1,8 +1,8 @@
 Source: https://oldschool.runescape.wiki/
 
-Light brown (background): R226, G219, B200
-Brown (top navi): R214, G205, B184
+Light brown (background of content): R226, G219, B200
+Brown (top navi background): R214, G205, B184
 Brown (Contents-menu background): R216, G204, B180
-Dark brown  (Contents-menu title): R184, G162, B130
-Dark brown (side navi): R192, G168, B134
+Dark brown  (Contents-menu title background): R184, G162, B130
+Dark brown (side navi background): R192, G168, B134
 Darkest brown (links): R147, G96, B57
