@@ -1,3 +1,4 @@
+Theme: Osrs wiki (brown)
 Source: https://oldschool.runescape.wiki/
 
 Light brown (background of content): R226, G219, B200
@@ -6,3 +7,6 @@ Brown (Contents-menu background): R216, G204, B180
 Dark brown  (Contents-menu title background): R184, G162, B130
 Dark brown (side navi background): R192, G168, B134
 Darkest brown (links): R147, G96, B57
+---------------------------------------------------------------
+
+
