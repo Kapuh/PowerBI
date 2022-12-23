@@ -1,6 +1,8 @@
-Vaalein ruskea (tausta): R226, G219, B200
-Keskitumman ruskea (ylänavi): R214, G205, B184
-Keskitumman ruskea (Contents-valikko): R216, G204, B180
-Tummin ruskea (Contents-valikko otsikko): R184, G162, B130
-Tummin ruskea (sivunavi): R192, G168, B134
-Todella tumma (linkit): R147, G96, B57
+Source: https://oldschool.runescape.wiki/
+
+Light brown (background): R226, G219, B200
+Brown (top navi): R214, G205, B184
+Brown (Contents-menu background): R216, G204, B180
+Dark brown  (Contents-menu title): R184, G162, B130
+Dark brown (side navi): R192, G168, B134
+Darkest brown (links): R147, G96, B57
