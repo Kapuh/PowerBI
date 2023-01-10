@@ -46,4 +46,5 @@ RETURN
         "Day of the week",SWITCH(WEEKDAY([Date],2),1,"Monday",2,"Tuesday",3,"Wednesday",4,"Thursday",5,"Friday",6,"Saturday",7,"Sunday"),
         "Quarter", "Q" & QUARTER( [Date] ),
         "Quarter/Year", "Q" & QUARTER( [Date] ) & FORMAT ( [Date], "/YYYY"),
-        "Year/Quarter", FORMAT ( [Date], "YYYY/") & "Q" & QUARTER( [Date] ))
+        "Year/Quarter", FORMAT ( [Date], "YYYY/") & "Q" & QUARTER( [Date] ),
+        "Half of the year", ROUNDUP(MONTH([Date])/6,0) & "H" & YEAR([Date]))
