@@ -21,7 +21,8 @@ RETURN
         "Viikonpäivä",SWITCH(WEEKDAY([Date],2),1,"Maanantai",2,"Tiistai",3,"Keskiviikko",4,"Torstai",5,"Perjantai",6,"Lauantai",7,"Sunnuntai"),
         "Kvartaali", "Q" & QUARTER( [Date] ),
         "Kvartaali/vuosi", "Q" & QUARTER( [Date] ) & FORMAT ( [Date], "/YYYY"),
-        "Vuosi/kvartaali", FORMAT ( [Date], "YYYY/") & "Q" & QUARTER( [Date] ))
+        "Vuosi/kvartaali", FORMAT ( [Date], "YYYY/") & "Q" & QUARTER( [Date] ),
+        "Puolivuotis", ROUNDUP(MONTH([Date])/6,0) & "H" & YEAR([Date]))
 
 
 --- Calendar (english) ---
