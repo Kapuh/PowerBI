@@ -1,0 +1,3 @@
+Requests (data collecting)
+Install: https://pypi.org/project/requests/
+File downloading: https://www.tutorialspoint.com/downloading-files-from-web-using-python
