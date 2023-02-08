@@ -1,0 +1,23 @@
+
+import requests
+import shutil
+import pandas as pd
+import matplotlib.pyplot as plt
+
+url = "https://pxdata.stat.fi:443/PxWeb/sq/8eaef3fc-15df-46f3-9491-48a82aa59566"
+r = requests.get(url, allow_redirects=True)
+
+open("12r5_data.csv", "wb").write(r.content)
+
+# Change YourUsername to yours/correct path
+shutil.move("P:/Python/12r5_data.csv", "C:/Users/YourUsername/Downloads/12r5_data.csv")
+
+# Change YourUsername to yours/correct path
+data = pd.read_csv("C:/Users/YourUsername/Downloads/12r5_data.csv", encoding="ISO-8859-1", delimiter=";")
+
+df = pd.DataFrame(data, columns=["Kuukausi", "Työnhakijoita laskentapäivänä (lkm.) Oulu", "Työttömät työnhakijat laskentapäivänä (lkm.) Oulu"])
+
+df.plot(x="Kuukausi", y=["Työnhakijoita laskentapäivänä (lkm.) Oulu", "Työttömät työnhakijat laskentapäivänä (lkm.) Oulu"], \
+     kind="line", figsize=(9,7), xlabel="Aika", ylabel="Lukumäärä")
+
+plt.show()
