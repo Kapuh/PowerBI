@@ -1,3 +1,14 @@
 Requests (data collecting)
 Install: https://pypi.org/project/requests/
 File downloading: https://www.tutorialspoint.com/downloading-files-from-web-using-python
+
+Installing libraries:
+
+Requests:
+python -m pip install requests
+
+Pandas:
+pip install pandas
+
+Matplotlib:
+pip install matplotlib
