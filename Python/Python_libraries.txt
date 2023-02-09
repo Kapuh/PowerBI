@@ -19,3 +19,6 @@ pip install pandas
 
 Matplotlib:
 pip install matplotlib
+
+Beatifulsoup4:
+pip install bs4
