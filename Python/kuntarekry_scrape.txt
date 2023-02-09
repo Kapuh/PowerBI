@@ -1,0 +1,25 @@
+# Source: https://www.youtube.com/watch?v=m-koIYWCaIo&ab_channel=JohnWatsonRooney
+
+import requests
+from bs4 import BeautifulSoup
+
+headers = {"User-Agent":""}
+
+jobsList = []
+
+def getJobs(tag):
+    url = "https://www.kuntarekry.fi/fi/tyopaikat/?&lang=fi_FI&desc={tag}&sort=%22-publish_from%22&limit=48&display=list"
+    r = requests.get(url, headers=headers)
+    soup = BeautifulSoup(r.text, "html.parser")
+    positions = soup.find_all("div", {"class": "list-container"})
+    for item in positions:
+        jobs = {
+        "title" : item.find("h3", {"class":"job-title"}).text,
+        "link" : "https://www.kuntarekry.fi" + item.find("a", {"class":"link no-prefetch"})["href"],
+        "expiration" : item.find("span", {"class": "text-blue"}).text,
+        }
+        jobsList.append(jobs)
+    return
+
+getJobs("sql")
+print(len(jobsList))
