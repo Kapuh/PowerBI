@@ -1,0 +1,21 @@
+-- My user agent -- 
+
+Set My user agent (headers = {"User-Agent" : "Paste from google"}), because some sites block the user if you don't have it. E.g. Amazon.
+You can get user agent information by writing my user agent to google search.
+
+Source: https://www.youtube.com/watch?v=90t9WkQbQ2E&ab_channel=JohnWatsonRooney
+
+-- Connection testing --
+
+import requests
+from bs4 import BeautifulSoup
+
+# get User-Agent from chrome with my user agent.
+headers = {"User-Agent":""}
+
+# set url you are going to use.
+url = ""
+r = requests.get(url, headers=headers)
+
+# test connection. 200 means it's working. Something else depends about code what is happening.
+print(r.status_code)
