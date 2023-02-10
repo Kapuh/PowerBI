@@ -1,0 +1,2 @@
+How to automatically annotate maximum value in pyplot?
+- https://stackoverflow.com/questions/43374920/how-to-automatically-annotate-maximum-value-in-pyplot
