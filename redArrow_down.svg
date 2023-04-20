@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="31.727262mm"
+   height="57.736008mm"
+   viewBox="0 0 31.727262 57.736008"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="redArrow_down.svg"
+   inkscape:export-filename="redArrow_up.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4912879"
+     inkscape:cx="-16.764034"
+     inkscape:cy="178.36932"
+     inkscape:window-width="1920"
+     inkscape:window-height="1177"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-8.1254167,-6.0658617)">
+    <path
+       id="rect338"
+       style="fill:#db1f1f;fill-opacity:1;stroke:none;stroke-width:0.0268214"
+       d="m 24.139426,63.801867 7.856368,-13.781588 7.856884,-13.781586 -11.810131,0.06408 V 6.0658626 H 19.935548 V 36.347213 L 8.1254156,36.411813 16.132163,50.1071 Z" />
+  </g>
+</svg>
