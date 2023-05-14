@@ -6,4 +6,7 @@ Splitting columns by delimeter with DAX
 https://community.powerbi.com/t5/Desktop/Splitting-columns-by-Delimiter-with-DAX-No-Query-Editor/td-p/995543
 
 Statfin date format (custom column)
-"01." & Text.Range([Kuukausi], 5, 2) & "." & Text.Range([Kuukausi], 0,  4)
+"01." & Text.Range([Kuukausi], 5, 2) & "." & Text.Range([Kuukausi], 0,  4) -> Add ",type date" after creating the column. It comes between the last close parentheses
+
+Other way to do this is add empty step and use this code (just change #"Filtered Rows" with one correct in your case)
+= Table.AddColumn(#"Filtered Rows", "pvm", each "01." & Text.Range([Kuukausi], 5, 2) & "." & Text.Range([Kuukausi], 0,  4), type date)
