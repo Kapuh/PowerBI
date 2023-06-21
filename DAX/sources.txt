@@ -9,6 +9,6 @@ Statfin date format (for finnish data)
 1. Create a new custom column and paste: "01." & Text.Range([Kuukausi], 5, 2) & "." & Text.Range([Kuukausi], 0,  4)
 2. Name the custom column Date
 3. Add a new step after custom column and paste: = Table.TransformColumnTypes(#"Added Custom",{{"Date", type date}})
-
-Other way to do this is add empty step and use this code (just change #"Filtered Rows" with one correct in your case)
-= Table.AddColumn(#"Filtered Rows", "pvm", each "01." & Text.Range([Kuukausi], 5, 2) & "." & Text.Range([Kuukausi], 0,  4), type date)
+OR
+1. Create a new step
+2. Paste this text and change #"Your last step" according to your previous step: = Table.AddColumn(#"Your last step", "Date", each Date.FromText("01." & Text.Range([Kuukausi], 5, 2) & "." & Text.Range([Kuukausi], 0,  4)), type date)
